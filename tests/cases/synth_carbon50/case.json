@@ -1,0 +1,50 @@
+{
+  "note": "Made-up test data. One R trisk.model call per run, with exactly these arguments.",
+  "reference": {
+    "package": "trisk.model",
+    "version": "2.7.0",
+    "repo": "Theia-Finance-Labs/trisk.model",
+    "commit": "748ef51"
+  },
+  "countries": [],
+  "runs": [
+    {
+      "run_id": "oracle-0",
+      "sectors": [
+        "Power"
+      ],
+      "args": {
+        "baseline_scenario": "SYNTH_CP",
+        "target_scenario": "SYNTH_NZ",
+        "scenario_geography": "Global",
+        "carbon_price_model": "increasing_carbon_tax_50",
+        "risk_free_rate": 0.045,
+        "discount_rate": 0.09,
+        "growth_rate": 0.03,
+        "div_netprofit_prop_coef": 1.0,
+        "shock_year": 2028,
+        "market_passthrough_power": 0.6,
+        "market_passthrough_primary": 0.9
+      }
+    },
+    {
+      "run_id": "oracle-1",
+      "sectors": [
+        "Oil&Gas"
+      ],
+      "args": {
+        "baseline_scenario": "SYNTH_CP",
+        "target_scenario": "SYNTH_NZ",
+        "scenario_geography": "Global",
+        "carbon_price_model": "increasing_carbon_tax_50",
+        "risk_free_rate": 0.045,
+        "discount_rate": 0.09,
+        "growth_rate": 0.03,
+        "div_netprofit_prop_coef": 1.0,
+        "shock_year": 2028,
+        "market_passthrough_power": 0.6,
+        "market_passthrough_primary": 0.9
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+year,model,scenario,scenario_geography,variable,unit,carbon_tax
+2025,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2025,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,0.0
+2026,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2026,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,0.0
+2027,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2027,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,0.0
+2028,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2028,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,0.0
+2029,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2029,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,0.0
+2030,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2030,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,50.0
+2031,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2031,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,52.0
+2032,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2032,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,54.080000000000005
+2033,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2033,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,56.2432
+2034,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2034,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,58.49292800000001
+2035,no_carbon_tax,no_carbon_tax,Global,Price|Carbon,US$2010/t CO2,0.0
+2035,increasing_carbon_tax_50,increasing_carbon_tax_50,Global,Price|Carbon,US$2010/t CO2,60.83264512000001

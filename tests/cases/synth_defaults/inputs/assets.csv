@@ -1,0 +1,25 @@
+asset_id,asset_name,company_id,company_name,country_iso2,production_year,sector,technology,capacity,capacity_factor,emission_factor
+A1,Alpha coal unit,C1,Alpha Power,DE,2025,Power,CoalCap,400,0.55,0.95
+A1,Alpha coal unit,C1,Alpha Power,DE,2026,Power,CoalCap,400,0.55,0.95
+A1,Alpha coal unit,C1,Alpha Power,DE,2027,Power,CoalCap,400,0.55,0.95
+A1,Alpha coal unit,C1,Alpha Power,DE,2028,Power,CoalCap,400,0.55,0.95
+A1,Alpha coal unit,C1,Alpha Power,DE,2029,Power,CoalCap,400,0.55,0.95
+A1,Alpha coal unit,C1,Alpha Power,DE,2030,Power,CoalCap,400,0.55,0.95
+A2,Alpha wind park,C1,Alpha Power,DE,2025,Power,RenewablesCap,150,0.35,0.0
+A2,Alpha wind park,C1,Alpha Power,DE,2026,Power,RenewablesCap,150,0.35,0.0
+A2,Alpha wind park,C1,Alpha Power,DE,2027,Power,RenewablesCap,150,0.35,0.0
+A2,Alpha wind park,C1,Alpha Power,DE,2028,Power,RenewablesCap,150,0.35,0.0
+A2,Alpha wind park,C1,Alpha Power,DE,2029,Power,RenewablesCap,150,0.35,0.0
+A2,Alpha wind park,C1,Alpha Power,DE,2030,Power,RenewablesCap,150,0.35,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2025,Power,RenewablesCap,120,0.2,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2026,Power,RenewablesCap,120,0.2,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2027,Power,RenewablesCap,120,0.2,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2028,Power,RenewablesCap,120,0.2,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2029,Power,RenewablesCap,120,0.2,0.0
+A3,Beta solar,C2,Beta Renewables,FR,2030,Power,RenewablesCap,120,0.2,0.0
+A4,Gamma field,C3,Gamma Oil,NO,2025,Oil&Gas,Oil,5000,1.0,0.07
+A4,Gamma field,C3,Gamma Oil,NO,2026,Oil&Gas,Oil,5000,1.0,0.07
+A4,Gamma field,C3,Gamma Oil,NO,2027,Oil&Gas,Oil,5000,1.0,0.07
+A4,Gamma field,C3,Gamma Oil,NO,2028,Oil&Gas,Oil,5000,1.0,0.07
+A4,Gamma field,C3,Gamma Oil,NO,2029,Oil&Gas,Oil,5000,1.0,0.07
+A4,Gamma field,C3,Gamma Oil,NO,2030,Oil&Gas,Oil,5000,1.0,0.07

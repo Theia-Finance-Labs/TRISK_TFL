@@ -1,0 +1,52 @@
+# Created with the support of AI tools.
+# tests: the Python tests on their own. parity: installs R trisk.model 2.7.0 (commit 748ef51)
+# from GitHub, runs it on every case in tests/cases/, and compares every output table with
+# trisk_tfl. Nothing from trisk.model is stored in this repository.
+name: tests and R parity
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * 1"
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        pandas: ["2.2.3", "3.0.*"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "pandas==${{ matrix.pandas }}" ".[test]"
+      - run: pytest -v
+
+  parity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+      - name: Install R trisk.model 2.7.0
+        run: Rscript tests/r/install_reference.R "$RUNNER_TEMP/r_lib"
+      - name: Run R on every case
+        run: |
+          for c in tests/cases/*/; do
+            R_LIBS_USER="$RUNNER_TEMP/r_lib" Rscript tests/r/run_reference.R "$c"
+          done
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install ".[test]"
+      - name: Compare Python with R
+        run: pytest -v
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: r-reference-outputs
+          path: tests/cases/*/expected/

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trisk-tfl"
+version = "0.1.0"
+description = "TRISK, the transition risk stress test, in Python: Theia Finance Labs' implementation of trisk.model 2.7.0"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Theia Finance Labs" }]
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.2,<4", "numpy>=1.26", "scipy>=1.10"]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/Theia-Finance-Labs/TRISK_TFL"
+"R reference" = "https://github.com/Theia-Finance-Labs/trisk.model"
+
+[tool.setuptools.packages.find]
+where = ["src"]
