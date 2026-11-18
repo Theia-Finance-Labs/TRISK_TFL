@@ -33,6 +33,8 @@ jobs:
         with:
           use-public-rspm: true
       - name: Install R trisk.model 2.7.0
+        env:
+          GITHUB_PAT: ${{ github.token }}
         run: Rscript tests/r/install_reference.R "$RUNNER_TEMP/r_lib"
       - name: Run R on every case
         run: |
